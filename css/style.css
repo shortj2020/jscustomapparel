@@ -92,6 +92,14 @@ font-size: 3.25rem;
   nav ul {
     display: block;
     text-align: center;
+    list-style-type: none;
+  }
+
+  nav ul li::before {
+  content: ">";
+  color: white;
+  padding-right: .5rem;
+  font-size: 1rem;
   }
   .main_content {
     display: block;
@@ -103,7 +111,7 @@ font-size: 3.25rem;
     text-align: center;
   }
   .column1 img {
-    width: 10rem;
+    width: 9rem;
   }
   .column2 {
     display: block;
