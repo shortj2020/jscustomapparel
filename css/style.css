@@ -126,3 +126,33 @@ font-size: 3.25rem;
   color: white;
   border-style: none;
 }
+
+.product_container {
+  margin-left: 11rem;
+  text-align: center;
+}
+
+.product_container img {
+  border-style: solid;
+}
+
+.product {
+  margin-left: 2rem;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
