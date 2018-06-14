@@ -73,3 +73,49 @@ font-size: 3.25rem;
   margin-top: 2rem;
   text-align: center;
 }
+
+.contacth2 {
+  text-align: center;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact_form p {
+  margin-top: 3rem;
+}
+
+.contact_form input {
+  padding: .5rem 6rem .5rem 0rem;
+  border-color: black;
+}
+
+#contact_message {
+  padding-bottom: 6rem;
+}
+
+#contact_submit {
+  font-weight: bold;
+  font-size: .9rem;
+  padding: .7rem 1.2rem .7rem 1.2rem;
+  border-radius: 1rem;
+  border-color: black;
+  border-width: .1rem;
+}
+
+#contact_submit:hover {
+  background-color: rgb(66,140,244);
+}
+
+#contact_submit:active {
+  background-color: black;
+  color: white;
+  border-style: none;
+}
