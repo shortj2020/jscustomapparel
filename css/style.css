@@ -1,5 +1,6 @@
 html,body {
     height:100%;
+    width: 100%;
 }
 
 nav {
@@ -93,12 +94,16 @@ font-size: 3.25rem;
   .main_content {
     display: block;
     text-align: center;
-    margin-left: 0rem;
+    margin: 0rem;
   }
 
   .column1 {
-    margin-left: 0rem;
+    margin: 0rem;
     text-align: center;
+  }
+
+  .column1 img {
+    width: 10rem;
   }
 
   .column2 {
@@ -111,6 +116,7 @@ font-size: 3.25rem;
 
   .inline_img {
     margin-top: 2rem;
+    text-align: center;
   }
 }
 
